@@ -168,7 +168,7 @@ do
         break
     elif [ $sub = 'HELP' ]
     then
-        echo $'\x0a''Available commands:'$'\x0a''HELP --> Display this message'$'\x0a''F [1-9] --> analyze the n_grams frequency of the ciphertext'$'\x0a''F [1-9] [1-9] --> take only the occurencies greater or equal the 2nd parameter'$'\x0a''SHIFT --> brute forcing with rot'$'\x0a''SHIFT [0-25] --> rot, take K from the 2nd parameter'$'\x0a\x0a'
+        echo $'\x0a''Available commands:'$'\x0a''HELP --> Display this message'$'\x0a''F [1-9] --> analyze the n_grams frequency of the ciphertext'$'\x0a''F [1-9] [1-9] --> take only the occurencies greater or equal the 2nd parameter'$'\x0a''SHIFT --> brute forcing with rot'$'\x0a''SHIFT [0-25] --> rot, take K from the 2nd parameter'$'\x0a''credits'$'\x0a\x0a'
         (( cont-- ))
         continue
     fi
