@@ -1,7 +1,5 @@
 #!/bin/bash
 
-#TODO controllare e riordinare il codice, convertire i commenti in inglese.
-
 clear
 
 echo '\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\' #BANNER
