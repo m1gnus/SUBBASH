@@ -72,7 +72,6 @@ n_freq () { #to analyze the frequency of the n-grams -- prototype n_freq [n]
     end=$(( ${#ciphertext} - $n + 1 ))
     num_freq=() #number of occurrency
     pos_v=() #n_grams array
-    #echo "DEBUG: "$start" "$n" "$end
     while [ $start -ne $end ]
     do
         echo ${ciphertext:$start:$n} >> $TMPFILE2
@@ -124,6 +123,7 @@ n_freq () { #to analyze the frequency of the n-grams -- prototype n_freq [n]
             echo -n "| "
         fi
     done
+    print_freq
 }
 
 shift_b () {
@@ -131,7 +131,7 @@ shift_b () {
     then
         ${ADDON_DIR}addon_brute_shift $(toupper $ciphertext)
     else
-        ${ADDON_DIR}addon_brute_shift $(toupper $ciphertext) $1 #implementare nel file c e nel case e in help. dopodichè finire il cazzo di esercizio
+        ${ADDON_DIR}addon_brute_shift $(toupper $ciphertext) $1 
     fi
     echo '-- --'$'\x0a\x0a'$ciphertext$'\x0a'
 }
