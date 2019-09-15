@@ -6,7 +6,7 @@ echo '\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\' #BANNER
 echo '\\ SUBBASH-Solver \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\' #BANNER
 echo '\\ Ciphertext Only attack -- FREQUENCY ANALYZER\\\' #BANNER
 echo '\\ BY M1GNUS -- -- PGIATASTI \\\\\\\\\\\\\\\\\\\\\' #BANNER
-echo '\\ V.1.0 -- BETA \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'
+echo '\\ V.1.0 -- BETA \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\' #BANNER
 echo '\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\' #BANNER
 echo $'\x0a\x0a' #Byte substitution "\n"
 
