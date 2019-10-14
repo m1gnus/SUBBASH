@@ -6,4 +6,4 @@ in order to see available commands type "help"
 
 this is ABSOLUTELY NOT the best language to do this, but i wanted to improve my skills with BASH.
 
-TODO: migliorare il meccanismo di sostituzione
+TODO: make better the substitution system by creating an empty string and fill it with letters
